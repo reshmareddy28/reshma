@@ -3,24 +3,20 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-			int num, i, count=0;
-		Scanner sc = new Scanner(System.in);
-		num = sc.nextInt();
-		for(i=2; i<num; i++)
-		{
-            		if(num%i == 0)
-            		{
-            			count++;
-            			break;
-            		}
-		}
-		if(count == 0)
-		{
-            		System.out.print("yes");
-		}
-		else
-		{
-            		System.out.print("no");
-		}
-	}
+			int n1=0,n2=0,i=0;
+         
+        Scanner sc = new Scanner(System.in);
+         
+        
+        n1 = sc.nextInt();
+        n2 = sc.nextInt();
+         
+        for(i=n1;i<n2; i++)
+        {
+            if(i%2!=0)
+                System.out.print(i+" ");
+        }   
+        System.out.println();
+         
+    }
 }
