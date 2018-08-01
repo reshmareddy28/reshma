@@ -16,6 +16,6 @@ class Ideone
     if(temp==c)  
     System.out.println("yes");   
     else  
-        System.out.println("No");   
+        System.out.println("no");   
    }  
 }  
